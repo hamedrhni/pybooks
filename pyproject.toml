@@ -2,7 +2,7 @@
 name = "python-accounting"
 version = "2.0.0"
 description = "The world's most comprehensive python Double Entry Accounting Library with IFRS/GAAP support"
-authors = ["Edward Mungai <emungai@microbooks.io>"]
+authors = ["Hamed Rahmani <hamedrhn@gmail.com>"]
 readme = "README.md"
 packages = [{include = "python_accounting"}, {include = "config.toml"}]
 keywords = ["accounting", "double-entry", "bookkeeping", "IFRS", "GAAP", "financial-statements"]

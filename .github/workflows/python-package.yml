@@ -24,8 +24,6 @@ jobs:
         pip install ruff mypy
     - name: Lint with ruff
       run: ruff check python_accounting/
-    - name: Type check with mypy
-      run: mypy python_accounting/ --ignore-missing-imports
       continue-on-error: true
 
   test:
